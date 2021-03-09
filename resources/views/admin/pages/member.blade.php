@@ -54,7 +54,7 @@
                     <td>{{ $member->twitter }}</td>
                     <td>{{ $member->linkedin }}</td>
                     <td>{{ $member->instagram }}</td>
-                    <td><img class="img-thumbnail" src="{{ asset('iris/member/'.$member->name.'.jpg') }}"></td>
+                    <td><img class="img-thumbnail" src="{{ asset('iris/member/'.$member->name.'.png') }}"></td>
                     <td class="text-center">
                         <a href="#" class="badge badge-warning">Edit</a>
                         <a href="#" class="badge badge-danger">Delete</a>
@@ -65,7 +65,7 @@
                 </table>
             </div>
             @if(count($members))
-                <div class="card-footer small text-muted text-center">Last Update : {{ $members[0]->updated_at->format('Y-m-d H:i:s') }}</div>
+                <div class="card-footer small text-muted text-center"></div>
             @endif
         </div>
     </div>
