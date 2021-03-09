@@ -65,7 +65,7 @@
                 </table>
             </div>
             @if(count($members))
-                <div class="card-footer small text-muted text-center"></div>
+            <div class="card-footer small text-muted text-center">Last Update : {{ $members[count($members)-1]->updated_at->format('Y-m-d H:i:s') }}</div>
             @endif
         </div>
     </div>

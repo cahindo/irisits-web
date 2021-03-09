@@ -27,6 +27,8 @@
                         <th>KTM</th>
                         <th>Essay General</th>
                         <th>Essay Division</th>
+                        <th>Updated At</th>
+                        
                     </tr>
                 </thead>
                 <tfoot>
@@ -39,6 +41,8 @@
                         <th>KTM</th>
                         <th>Essay General</th>
                         <th>Essay Division</th>
+                        <th>Updated At</th>
+
                     </tr>
                 </tfoot>
                 <tbody>
@@ -52,6 +56,7 @@
                         <td><a href="{{ asset('storage/oprec/' . $oprec->KTM) }}" target="_blank">KTM</a></td>
                         <td><a href="{{ asset('storage/oprec/' . $oprec->essay_general) }}" target="_blank">Essay General</a></td>
                         <td><a href="{{ asset('storage/oprec/' . $oprec->essay_division) }}" target="_blank">Essay Division</a></td>
+                        <td>{{ $oprec->updated_at }}</td>
                     </tr>
                     @endforeach
                 </tbody>
