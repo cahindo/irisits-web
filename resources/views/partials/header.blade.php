@@ -12,21 +12,22 @@
 
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav justify-content-end">
-                    <li class="nav-item nav-home"><a class="nav-link" href="{{ '/' }}">Home</a></li>
-                    <li class="nav-item nav-team"><a class="nav-link" href="{{ '/team' }}">Team</a></li>
-                    <li class="nav-item nav-gallery"><a class="nav-link" href="{{ '/gallery' }}">Gallery</a></li>
-                    <li class="nav-item nav-achievement"><a class="nav-link" href=" {{ '/achievement' }} ">Achievement</a>
-                    <li class="nav-item nav-qualification submenu dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                            aria-expanded="false">Qualification</a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2019'}}">Robocup 2019</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2020'}}">Robocup 2020</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2021'}}">Robocup 2021</a></li>
-                        </ul>
-                    </li>
-                        <li class="nav-item nav-contact"><a class="nav-link" href=" {{ '/contact' }} ">Contact</a>
-                        <!-- <li class="nav-item nav-oprec"><a class="nav-link" href=" {{ '/oprec' }} ">Oprec</a> -->
+                        <li class="nav-item nav-home"><a class="nav-link" href="{{ '/' }}">Home</a></li>
+                        <li class="nav-item nav-team"><a class="nav-link" href="{{ '/team' }}">Team</a></li>
+                        <li class="nav-item nav-gallery"><a class="nav-link" href="{{ '/gallery' }}">Gallery</a></li>
+                        <li class="nav-item nav-achievement">
+                            <a class="nav-link" href=" {{ '/achievement' }} ">Achievement</a>
+                            <li class="nav-item nav-qualification submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qualification</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2019'}}">Robocup 2019</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2020'}}">Robocup 2020</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2021'}}">Robocup 2021</a></li>
+                                </ul>
+                            </li>
+                        </li>
+                        <li class="nav-item nav-contact"><a class="nav-link" href=" {{ '/contact' }} ">Contact</a></li>
+                        <li class="nav-item nav-oprec"><a class="nav-link" href=" {{ '/oprec' }} "><p class="">OPREC</p></a> </li>
                     </ul>
                 </div>
             </div>

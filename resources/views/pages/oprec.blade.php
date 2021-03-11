@@ -2,6 +2,13 @@
 
 @section('style')
 <link rel="stylesheet" href="{{ asset('css/form.css') }}">
+
+<style>
+a.hover{
+  color:aquamarine !important;
+}
+
+</style>
 @endsection
 
 @section('content')
@@ -18,7 +25,7 @@
 <section class="hero-banner hero-banner-sm">
 <div class="hero-wrapper">
     <div class="hero-left">
-    <h1 class="hero-title">Open Recruitment</h1>
+    <h1 class="hero-title">Open Recruitments</h1>
     <p>Join and lets start adventure with us!</p>
     <ul class="hero-info d-none d-lg-block">
         <li>
@@ -51,8 +58,29 @@
 </section>
 <!--================Hero Banner Section end =================-->
 
-  <!-- ================ contact section start ================= -->
-  <section class="section-margin">
+<!--================Oprec menu section start =================-->  
+  <section class="section-margin" id="oprec" >
+    <div class="container">
+      <div class="section-intro mb-75px">
+        <h4 class="intro-title">Join Our Team</h4>
+        <h2>Open Recruitment launch NOW !</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="media align-items-center food-card">
+            <div class="media-body justify-content-center text-center">
+              <h2><a href="https://intip.in/IRISKRI2021" target="_blank class="joinnow" style="color:black !important;" onMouseOver="this.style.color='#1CC3B2'" onMouseOut="this.style.color='#000'">JOIN NOW</a></h2>
+              <p>Complete the requirement and wait for the day!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--================Oprec menu section end =================-->
+
+<!-- ================ contact section start ================= -->
+    <section class="section-margin" style="visibility="hidden>
     <div class="container">
         <div class="wrapper">
             <div class="inner">
@@ -105,8 +133,8 @@
             </div>
         </div>
     </div>
-  </section>
-	<!-- ================ contact section end ================= -->
+    </section>
+<!-- ================ contact section end ================= -->
 
 @endsection
 

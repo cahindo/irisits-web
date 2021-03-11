@@ -19,6 +19,7 @@ Route::get('/team', 'PagesController@getTeamPage');
 Route::get('/gallery', 'PagesController@getGalleryPage');
 Route::get('/achievement', 'PagesController@getAchievementPage');
 Route::get('/contact', 'PagesController@getContactPage');
+// Route::get('/oprec', 'PagesController@getHomePage');
 Route::get('/oprec', 'PagesController@getOprecPage');
 
 Route::get('/qualification/robocup-2019', 'PagesController@getRobocup2019Page');

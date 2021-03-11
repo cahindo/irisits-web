@@ -2,6 +2,9 @@
 
 @section('style')
 <style>
+html{
+   scroll-padding-top: 240px; 
+}
 .division i {
   font-size: 60px;
 }
@@ -21,7 +24,7 @@
     <div class="hero-left">
       <h1 class="hero-title">Robotics <br> with Intelligent System</h1>
       <div class="d-sm-flex flex-wrap">
-        <a class="button button-hero button-shadow" href="#">Get Started</a>
+        <a class="button button-hero button-shadow" href="/oprec">JOIN OPREC NOW !</a>
         <a class="hero-banner__video" href="https://www.youtube.com/watch?v=kKfPtkb797g">Watch Video</a>          
       </div>
       <ul class="hero-info d-none d-lg-block">
