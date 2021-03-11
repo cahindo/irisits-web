@@ -4,8 +4,11 @@
 <link rel="stylesheet" href="{{ asset('css/form.css') }}">
 
 <style>
-a.hover{
-  color:aquamarine !important;
+a{
+  color:black;
+}
+a:hover{
+  color: #1CC3B2 !important;
 }
 
 </style>
@@ -69,7 +72,7 @@ a.hover{
         <div class="col-lg-6">
           <div class="media align-items-center food-card">
             <div class="media-body justify-content-center text-center">
-              <h2><a href="https://intip.in/IRISKRI2021" target="_blank class="joinnow" style="color:black !important;" onMouseOver="this.style.color='#1CC3B2'" onMouseOut="this.style.color='#000'">JOIN NOW</a></h2>
+              <h2><a href="https://intip.in/IRISKRI2021" target="_blank class="joinnow">JOIN NOW</a></h2>
               <p>Complete the requirement and wait for the day!</p>
             </div>
           </div>

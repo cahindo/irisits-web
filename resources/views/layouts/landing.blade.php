@@ -27,7 +27,6 @@
         gtag('config', 'UA-146577963-1');
       }
     </script>
-    @yield('style')
 </head>
 <body onload="loadOn()">
     <div id="loader">
@@ -71,5 +70,7 @@
         });
     </script>
     @yield('script')
+    @yield('style')
+
 </body>
 </html>
