@@ -45,6 +45,9 @@ html{
     <div class="hero-right hero-right-home">
       <div class="owl-carousel owl-theme hero-carousel">
         <div class="hero-carousel-item">
+          <img class="img-fluid" src="{{ asset('img/iris/banner-0.jpg') }}" alt="">
+        </div>
+        <div class="hero-carousel-item">
           <img class="img-fluid" src="{{ asset('img/iris/banner-1.jpg') }}" alt="">
         </div>
         <div class="hero-carousel-item">
